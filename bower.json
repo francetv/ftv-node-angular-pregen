@@ -1,0 +1,7 @@
+{
+  "name": "front-web",
+  "dependencies": {
+    "angular": "angularjs#1.5.2",
+    "angular-route": "1.5.2"
+  }
+}

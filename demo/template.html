@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="fr" ng-app="app">
+    <head>
+        <title>{{title}}</title>
+    </head>
+
+    <body ng-controller="AppCtrl">
+
+        <!-- layout module with signature will be hydrated by angular after pregen -->
+        <layout-module-with-signature></layout-module-with-signature>
+        <!-- otherwise without signature angular will not hydrate it after pregen -->
+        <layout-module-without-signature></layout-module-without-signature>
+        <!-- Splash Screen useful when pregen fails -->
+        <div class="splashscreen" ng-hide="!showSplash">My Splash Screen</div>
+        <div ng-view></div>
+
+        <!-- not-required-lib -->
+        <script type="text/javascript" src="/not-required-pregen-lib.js"></script>
+        <script type="text/javascript" src="/required-pregen-lib.js"></script>
+        <script type="text/javascript">
+            {{> env }}
+        </script>
+        <script type="text/javascript" src="/app.js"></script>
+    </body>
+</html>

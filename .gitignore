@@ -1,0 +1,6 @@
+node_modules
+demo/static/required-pregen-lib.js
+demo/bower_components
+demo/static/angular-route.min.js.map
+demo/static/app.js
+demo/static/templates.js
