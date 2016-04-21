@@ -4,10 +4,10 @@
   "description": "France TV - Angular Pregen",
   "license": "proprietary",
   "dependencies": {
-    "body-parser": "1.14.1",
     "jsdom": "^v7.0.2"
   },
   "devDependencies": {
+    "body-parser": "1.14.1",
     "express": "4.13.3",
     "gulp": "^3.8.10",
     "gulp-angular-templatecache": "^1.8.0",
