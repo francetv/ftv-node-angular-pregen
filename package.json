@@ -1,10 +1,11 @@
 {
-  "name": "ftv-angular-pregen",
+  "name": "ftv-node-angular-pregen",
   "version": "1.0.2",
-  "description": "France TV - Angular Pregen",
+  "description": "NodeJS server use to generate AngularJS page.",
   "license": "proprietary",
   "dependencies": {
-    "jsdom": "^v7.0.2"
+    "jsdom": "^v7.0.2",
+    "mustache": "^2.2.1"
   },
   "devDependencies": {
     "body-parser": "1.14.1",
@@ -19,6 +20,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.ftven.net:team-infini/angular-pregen.git"
+    "url": "git@gitlab.ftven.net:team-infini/ftv-node-angular-pregen.git"
   }
 }

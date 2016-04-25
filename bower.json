@@ -1,5 +1,5 @@
 {
-  "name": "front-web",
+  "name": "ftv-node-angular-pregen",
   "dependencies": {
     "angular": "angularjs#1.5.2",
     "angular-route": "1.5.2"
