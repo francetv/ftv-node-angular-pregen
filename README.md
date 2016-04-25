@@ -1,32 +1,31 @@
-FTV - Angular Pregen
-====================
+# FTV - NodeJS AngularJS Pregen
 
-Angular generator
+NodeJS server used to generate AngularJS page.
 
-# Get sources
+## Get sources
 
 ```
-git clone git@gitlab.ftven.net:team-infini/angular-pregen.git
+git clone git@gitlab.ftven.net:team-infini/ftv-node-angular-pregen.git
 ```
 
-# Required dependencies
+## Required dependencies
 
 - [npm](https://nodejs.org/)
 
-# Installation
+## Installation
 
 ```
-npm install ftv-angular-pregen
+npm install ftv-node-angular-pregen
 ```
 
-# Dev requirement
+## Dev requirement
 
 ```
 npm install -g gulp
 npm install
 ```
 
-# JS Linter
+## JS Linter
 
 ```
 gulp js-lint
@@ -49,7 +48,7 @@ nodemon demo/server.js --expose-gc
 
 ```
 npm install -g pm2
-pm2 start --node-args='--expose-gc' --watch zoom-server.js
+pm2 start demo/server.js --node-args='--expose-gc' --watch 
 ```
 
 In the demo we require using garbage collector when memory is too high because by this time of using this laster jsdom version it is still having memory leak
@@ -57,10 +56,10 @@ In the demo we require using garbage collector when memory is too high because b
 ## Explanation
 
 - Server
-  - Api Service - Retrieving "view data" according the url
-  - Pregen page with the "view data" and on the required librairies
-  - Inserting in the snapshot the "view data" in a angular module
-  - Sending snapshot to the client
+    - Api Service - Retrieving "view data" according the url
+    - Pregen page with the "view data" and on the required librairies
+    - Inserting in the snapshot the "view data" in a angular module
+    - Sending snapshot to the client
 - Client
-  - Initializing the angular app
-  - Building the page with the "view data" retrieved from the inserted angular modules (prevent to call again the api - server side only)
+    - Initializing the angular app
+    - Building the page with the "view data" retrieved from the inserted angular modules (prevent to call again the api - server side only)

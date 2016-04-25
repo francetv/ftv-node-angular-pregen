@@ -88,7 +88,6 @@ exports.prepareView = function ($injector, $rootScope, scriptTags, callback) {
     var matches = staticSnapshot.match(/<\/body(?:.*?)>(?:[\S\s]*?)<\/html>/gi);
     staticSnapshot = staticSnapshot.replace(matches[0], scriptTags.join(''));
     staticSnapshot += '</body></html>';
-    staticSnapshot = staticSnapshot;
 
     $injector.close();
 
