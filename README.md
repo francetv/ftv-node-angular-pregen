@@ -63,3 +63,6 @@ In the demo we require using garbage collector when memory is too high because b
 - Client
     - Initializing the angular app
     - Building the page with the "view data" retrieved from the inserted angular modules (prevent to call again the api - server side only)
+    
+---------------------------------------
+This project is part of [francetv zoom open source projects](https://gitlab.ftven.net/team-infini/zoom-public) (iOS, Android and Angular)
