@@ -20,6 +20,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.ftven.net:team-infini/ftv-node-angular-pregen.git"
+    "url": "git@github.com:francetv/ftv-node-angular-pregen.git"
   }
 }
