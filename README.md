@@ -1,11 +1,13 @@
 # FTV - NodeJS AngularJS Pregen
 
+This project is part of [francetv zoom open source projects](https://github.com/francetv/zoom-public) (iOS, Android and Angular).
+
 NodeJS server used to generate AngularJS page.
 
 ## Get sources
 
 ```
-git clone git@gitlab.ftven.net:team-infini/ftv-node-angular-pregen.git
+git clone git@github.com:francetv/ftv-node-angular-pregen.git
 ```
 
 ## Required dependencies
@@ -63,6 +65,3 @@ In the demo we require using garbage collector when memory is too high because b
 - Client
     - Initializing the angular app
     - Building the page with the "view data" retrieved from the inserted angular modules (prevent to call again the api - server side only)
-    
----------------------------------------
-This project is part of [francetv zoom open source projects](https://gitlab.ftven.net/team-infini/zoom-public) (iOS, Android and Angular)
