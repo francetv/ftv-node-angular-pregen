@@ -50,10 +50,10 @@ nodemon demo/server.js --expose-gc
 
 ```
 npm install -g pm2
-pm2 start demo/server.js --node-args='--expose-gc' --watch 
+pm2 start demo/server.js --node-args='--expose-gc' --watch
 ```
 
-In the demo we require using garbage collector when memory is too high because by this time of using this laster jsdom version it is still having memory leak
+In the demo we require using garbage collector because current jsdom version still has memory leak
 
 ## Explanation
 

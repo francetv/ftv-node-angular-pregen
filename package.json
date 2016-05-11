@@ -4,8 +4,7 @@
   "description": "NodeJS server use to generate AngularJS page.",
   "license": "proprietary",
   "dependencies": {
-    "jsdom": "^v7.0.2",
-    "mustache": "^2.2.1"
+    "jsdom": "^v7.0.2"
   },
   "devDependencies": {
     "body-parser": "1.14.1",
@@ -16,7 +15,8 @@
     "gulp-concat": "^2.6.0",
     "gulp-htmlmin": "^1.3.0",
     "gulp-jshint": "^1.9.4",
-    "run-sequence": "^1.1.5"
+    "run-sequence": "^1.1.5",
+    "mustache": "^2.2.1"
   },
   "repository": {
     "type": "git",
