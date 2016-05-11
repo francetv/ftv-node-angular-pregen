@@ -1,6 +1,6 @@
 {
   "name": "ftv-node-angular-pregen",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "NodeJS server use to generate AngularJS page.",
   "license": "proprietary",
   "dependencies": {
